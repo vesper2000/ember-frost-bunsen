@@ -1,4 +1,4 @@
-@import 'node_modules/ember-frost-theme/scss/frost-theme';
+@import 'node_modules/ember-frost-core/addon/styles/frost-theme';
 
 $frost-row-field-padding: 40px;
 
@@ -53,8 +53,8 @@ $frost-row-field-padding: 40px;
   }
 
   // Add some spacing to visualize object nesting
-  .container-model,
-  .container-array {
+  .model-container,
+  .array-container {
     padding: 5px;
     margin: 5px;
   }
